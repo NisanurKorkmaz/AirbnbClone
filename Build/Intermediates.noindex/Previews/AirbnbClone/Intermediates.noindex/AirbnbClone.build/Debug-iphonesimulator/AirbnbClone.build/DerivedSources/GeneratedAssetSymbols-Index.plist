@@ -46,6 +46,26 @@
 			<key>swiftSymbol</key>
 			<string>image4</string>
 		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameMalePp</string>
+			<key>relativePath</key>
+			<string>./male-pp.imageset</string>
+			<key>swiftSymbol</key>
+			<string>malePp</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameMalepp</string>
+			<key>relativePath</key>
+			<string>./malepp.imageset</string>
+			<key>swiftSymbol</key>
+			<string>malepp</string>
+		</dict>
 	</array>
 	<key>symbols</key>
 	<array/>

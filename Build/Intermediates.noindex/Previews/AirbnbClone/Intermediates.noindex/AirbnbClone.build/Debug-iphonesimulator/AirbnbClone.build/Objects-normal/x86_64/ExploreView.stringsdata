@@ -1,5 +1,12 @@
 {
   "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Explore/ExploreView.swift",
-  "tables": {},
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "hello"
+      }
+    ]
+  },
   "version": 1
 }

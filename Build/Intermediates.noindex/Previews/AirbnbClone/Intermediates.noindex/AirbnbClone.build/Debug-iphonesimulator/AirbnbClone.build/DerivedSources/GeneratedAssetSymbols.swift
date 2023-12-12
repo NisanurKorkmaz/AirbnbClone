@@ -43,6 +43,12 @@ extension DeveloperToolsSupport.ImageResource {
     /// The "image4" asset catalog image resource.
     static let image4 = DeveloperToolsSupport.ImageResource(name: "image4", bundle: resourceBundle)
 
+    /// The "male-pp" asset catalog image resource.
+    static let malePp = DeveloperToolsSupport.ImageResource(name: "male-pp", bundle: resourceBundle)
+
+    /// The "malepp" asset catalog image resource.
+    static let malepp = DeveloperToolsSupport.ImageResource(name: "malepp", bundle: resourceBundle)
+
 }
 
 // MARK: - Color Symbol Extensions -
@@ -118,6 +124,24 @@ extension AppKit.NSImage {
 #endif
     }
 
+    /// The "male-pp" asset catalog image.
+    static var malePp: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .malePp)
+#else
+        .init()
+#endif
+    }
+
+    /// The "malepp" asset catalog image.
+    static var malepp: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .malepp)
+#else
+        .init()
+#endif
+    }
+
 }
 #endif
 
@@ -157,6 +181,24 @@ extension UIKit.UIImage {
     static var image4: UIKit.UIImage {
 #if !os(watchOS)
         .init(resource: .image4)
+#else
+        .init()
+#endif
+    }
+
+    /// The "male-pp" asset catalog image.
+    static var malePp: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .malePp)
+#else
+        .init()
+#endif
+    }
+
+    /// The "malepp" asset catalog image.
+    static var malepp: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .malepp)
 #else
         .init()
 #endif

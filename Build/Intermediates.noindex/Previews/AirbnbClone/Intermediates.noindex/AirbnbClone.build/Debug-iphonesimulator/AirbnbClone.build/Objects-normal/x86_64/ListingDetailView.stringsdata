@@ -1,0 +1,32 @@
+{
+  "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Listings/ListingDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Miami Villa"
+      },
+      {
+        "comment": "",
+        "key": "Miami, Florida"
+      },
+      {
+        "comment": "",
+        "key": "4.86 - "
+      },
+      {
+        "comment": "",
+        "key": "28 reviews"
+      },
+      {
+        "comment": "",
+        "key": "Entire villa hosted by John Smith"
+      },
+      {
+        "comment": "",
+        "key": "4 Guest - 4 bedrooms - 4 beds - 3 baths"
+      }
+    ]
+  },
+  "version": 1
+}

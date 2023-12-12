@@ -26,7 +26,8 @@ extension ExploreView {
                 .padding()
             }
             .navigationDestination(for: Int.self){listing in
-                Text(__designTimeString("#1179.[1].[0].property.[0].[0].arg[0].value.[0].modifier[0].arg[1].value.[0].arg[0].value", fallback: "hello"))
+                ListingDetailView()
+                    .navigationBarBackButtonHidden()
                 
             }
         }

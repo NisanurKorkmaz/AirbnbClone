@@ -31,6 +31,18 @@ extension DeveloperToolsSupport.ColorResource {
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 extension DeveloperToolsSupport.ImageResource {
 
+    /// The "image1" asset catalog image resource.
+    static let image1 = DeveloperToolsSupport.ImageResource(name: "image1", bundle: resourceBundle)
+
+    /// The "image2" asset catalog image resource.
+    static let image2 = DeveloperToolsSupport.ImageResource(name: "image2", bundle: resourceBundle)
+
+    /// The "image3" asset catalog image resource.
+    static let image3 = DeveloperToolsSupport.ImageResource(name: "image3", bundle: resourceBundle)
+
+    /// The "image4" asset catalog image resource.
+    static let image4 = DeveloperToolsSupport.ImageResource(name: "image4", bundle: resourceBundle)
+
 }
 
 // MARK: - Color Symbol Extensions -
@@ -70,6 +82,42 @@ extension SwiftUI.ShapeStyle where Self == SwiftUI.Color {
 @available(macCatalyst, unavailable)
 extension AppKit.NSImage {
 
+    /// The "image1" asset catalog image.
+    static var image1: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .image1)
+#else
+        .init()
+#endif
+    }
+
+    /// The "image2" asset catalog image.
+    static var image2: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .image2)
+#else
+        .init()
+#endif
+    }
+
+    /// The "image3" asset catalog image.
+    static var image3: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .image3)
+#else
+        .init()
+#endif
+    }
+
+    /// The "image4" asset catalog image.
+    static var image4: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .image4)
+#else
+        .init()
+#endif
+    }
+
 }
 #endif
 
@@ -77,6 +125,42 @@ extension AppKit.NSImage {
 @available(iOS 17.0, tvOS 17.0, *)
 @available(watchOS, unavailable)
 extension UIKit.UIImage {
+
+    /// The "image1" asset catalog image.
+    static var image1: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .image1)
+#else
+        .init()
+#endif
+    }
+
+    /// The "image2" asset catalog image.
+    static var image2: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .image2)
+#else
+        .init()
+#endif
+    }
+
+    /// The "image3" asset catalog image.
+    static var image3: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .image3)
+#else
+        .init()
+#endif
+    }
+
+    /// The "image4" asset catalog image.
+    static var image4: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .image4)
+#else
+        .init()
+#endif
+    }
 
 }
 #endif
@@ -178,6 +262,26 @@ extension DeveloperToolsSupport.ImageResource {
     }
 
 }
+
+#if canImport(AppKit)
+@available(macOS 14.0, *)
+@available(macCatalyst, unavailable)
+extension AppKit.NSImage {
+
+    private convenience init?(thinnableResource: DeveloperToolsSupport.ImageResource?) {
+#if !targetEnvironment(macCatalyst)
+        if let resource = thinnableResource {
+            self.init(resource: resource)
+        } else {
+            return nil
+        }
+#else
+        return nil
+#endif
+    }
+
+}
+#endif
 
 #if canImport(UIKit)
 @available(iOS 17.0, tvOS 17.0, *)

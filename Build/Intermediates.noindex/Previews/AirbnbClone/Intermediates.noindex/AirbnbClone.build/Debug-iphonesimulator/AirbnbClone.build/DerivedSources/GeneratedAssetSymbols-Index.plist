@@ -5,7 +5,48 @@
 	<key>colors</key>
 	<array/>
 	<key>images</key>
-	<array/>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameImage1</string>
+			<key>relativePath</key>
+			<string>./image1.imageset</string>
+			<key>swiftSymbol</key>
+			<string>image1</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameImage2</string>
+			<key>relativePath</key>
+			<string>./image2.imageset</string>
+			<key>swiftSymbol</key>
+			<string>image2</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameImage3</string>
+			<key>relativePath</key>
+			<string>./image3.imageset</string>
+			<key>swiftSymbol</key>
+			<string>image3</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameImage4</string>
+			<key>relativePath</key>
+			<string>./image4.imageset</string>
+			<key>swiftSymbol</key>
+			<string>image4</string>
+		</dict>
+	</array>
 	<key>symbols</key>
 	<array/>
 </dict>

@@ -4,7 +4,23 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Hello, World!"
+        "key": "Miami, Florida"
+      },
+      {
+        "comment": "",
+        "key": "12 mi away"
+      },
+      {
+        "comment": "",
+        "key": "Nov 3 - 10"
+      },
+      {
+        "comment": "",
+        "key": "$567"
+      },
+      {
+        "comment": "",
+        "key": "night"
       }
     ]
   },

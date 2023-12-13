@@ -1,0 +1,16 @@
+{
+  "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Explore/DestinationSearchView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Where to ?"
+      },
+      {
+        "comment": "",
+        "key": "Search Destinations"
+      }
+    ]
+  },
+  "version": 1
+}

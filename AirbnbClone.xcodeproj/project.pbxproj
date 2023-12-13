@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98CF1EB72B29E9880049514F /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CF1EB62B29E9880049514F /* DestinationSearchView.swift */; };
 		98D0AD042B28815E005F2F46 /* AirbnbCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0AD032B28815E005F2F46 /* AirbnbCloneApp.swift */; };
 		98D0AD062B28815E005F2F46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0AD052B28815E005F2F46 /* ContentView.swift */; };
 		98D0AD082B288160005F2F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D0AD072B288160005F2F46 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98CF1EB62B29E9880049514F /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		98D0AD002B28815E005F2F46 /* AirbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D0AD032B28815E005F2F46 /* AirbnbCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbCloneApp.swift; sourceTree = "<group>"; };
 		98D0AD052B28815E005F2F46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			children = (
 				98D0AD1D2B28848A005F2F46 /* ExploreView.swift */,
 				98D0AD222B28933F005F2F46 /* SearchAndFilterBar.swift */,
+				98CF1EB62B29E9880049514F /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98D0AD282B289F57005F2F46 /* ListingImageCarouselView.swift in Sources */,
+				98CF1EB72B29E9880049514F /* DestinationSearchView.swift in Sources */,
 				98D0AD062B28815E005F2F46 /* ContentView.swift in Sources */,
 				98D0AD202B288680005F2F46 /* ListingItemView.swift in Sources */,
 				98D0AD1E2B28848A005F2F46 /* ExploreView.swift in Sources */,

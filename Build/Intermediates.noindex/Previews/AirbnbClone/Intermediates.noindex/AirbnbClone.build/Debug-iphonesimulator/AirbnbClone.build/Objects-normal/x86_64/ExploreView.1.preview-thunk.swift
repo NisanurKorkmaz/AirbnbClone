@@ -10,25 +10,34 @@ import SwiftUI
 
 extension ExploreView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Explore/ExploreView.swift", line: 12)
+        #sourceLocation(file: "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Explore/ExploreView.swift", line: 14)
         NavigationStack{
-            ScrollView{
-                SearchAndFilterBar()
-                LazyVStack(spacing : __designTimeInteger("#1179.[1].[0].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value", fallback: 32)){
-                    ForEach(__designTimeInteger("#1179.[1].[0].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0].arg[0].value.[0]", fallback: 1) ... __designTimeInteger("#1179.[1].[0].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0].arg[0].value.[1]", fallback: 10), id: \.self){listing in
-                        NavigationLink(value : listing){
-                            ListingItemView()
-                                .frame(height: __designTimeInteger("#1179.[1].[0].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[0].arg[0].value", fallback: 400))
-                                .clipShape(RoundedRectangle(cornerRadius: __designTimeInteger("#1179.[1].[0].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[1].arg[0].value.arg[0].value", fallback: 10)))
+            if showDestinationSearchView{
+                DestinationSearchView(show: $showDestinationSearchView)
+            }else{
+                ScrollView{
+                    SearchAndFilterBar()
+                        .onTapGesture {
+                            withAnimation(.snappy){
+                                showDestinationSearchView.toggle()
+                            }
+                            
+                        }
+                    LazyVStack(spacing : __designTimeInteger("#9912.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[0].value", fallback: 32)){
+                        ForEach(__designTimeInteger("#9912.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[0].value.[0]", fallback: 1) ... __designTimeInteger("#9912.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[0].value.[1]", fallback: 10), id: \.self){listing in
+                            NavigationLink(value : listing){
+                                ListingItemView()
+                                    .frame(height: __designTimeInteger("#9912.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[0].arg[0].value", fallback: 400))
+                                    .clipShape(RoundedRectangle(cornerRadius: __designTimeInteger("#9912.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[1].arg[0].value.arg[0].value", fallback: 10)))
+                            }
                         }
                     }
+                    .padding()
                 }
-                .padding()
-            }
-            .navigationDestination(for: Int.self){listing in
-                ListingDetailView()
-                    .navigationBarBackButtonHidden()
-                
+                .navigationDestination(for: Int.self){listing in
+                    ListingDetailView()
+                        .navigationBarBackButtonHidden()
+                }
             }
         }
     

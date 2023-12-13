@@ -1,0 +1,32 @@
+{
+  "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/DestinationSearchView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Where to ?"
+      },
+      {
+        "comment": "",
+        "key": "Search Destinations"
+      },
+      {
+        "comment": "",
+        "key": "When"
+      },
+      {
+        "comment": "",
+        "key": "Add dates"
+      },
+      {
+        "comment": "",
+        "key": "Who"
+      },
+      {
+        "comment": "",
+        "key": "Add guests"
+      }
+    ]
+  },
+  "version": 1
+}

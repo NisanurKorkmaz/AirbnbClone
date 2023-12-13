@@ -7,9 +7,20 @@
 
 import SwiftUI
 
+enum DestinationSearchOptions{
+    case location
+    case dates
+    case guests
+}
+
 struct DestinationSearchView: View {
     @Binding var show : Bool
     @State private var destination = ""
+    
+    @State private var locationSelected = false
+    @State private var datesSelected = false
+    @State private var guestsSelected = false
+    
     var body: some View {
         VStack{
             Button{
@@ -47,38 +58,10 @@ struct DestinationSearchView: View {
             .shadow(radius: 10)
             
             //date selection view
-            VStack{
-                HStack{
-                    Text("When")
-                        .foregroundStyle(.gray)
-                    Spacer()
-                    Text("Add dates")
-                }
-                .fontWeight(.semibold)
-                .font(.subheadline)
-            }
-            .padding()
-            .background(.white)
-            .clipShape(RoundedRectangle(cornerRadius: 12))
-            .padding()
-            .shadow(radius: 10)
+            CollapsedPickerView(title: "When", description: "Add dates")
             
             //num guests view
-            VStack{
-                HStack{
-                    Text("Who")
-                        .foregroundStyle(.gray)
-                    Spacer()
-                    Text("Add guests")
-                }
-                .fontWeight(.semibold)
-                .font(.subheadline)
-            }
-            .padding()
-            .background(.white)
-            .clipShape(RoundedRectangle(cornerRadius: 12))
-            .padding()
-            .shadow(radius: 10)
+            CollapsedPickerView(title: "Who", description: "Add guests")
             
         }
         Spacer()
@@ -87,4 +70,26 @@ struct DestinationSearchView: View {
 
 #Preview {
     DestinationSearchView(show: .constant(false))
+}
+
+struct CollapsedPickerView: View {
+    let title : String
+    let description : String
+    var body: some View {
+        VStack{
+            HStack{
+                Text(title)
+                    .foregroundStyle(.gray)
+                Spacer()
+                Text(description)
+            }
+            .fontWeight(.semibold)
+            .font(.subheadline)
+        }
+        .padding()
+        .background(.white)
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .padding()
+        .shadow(radius: 10)
+    }
 }

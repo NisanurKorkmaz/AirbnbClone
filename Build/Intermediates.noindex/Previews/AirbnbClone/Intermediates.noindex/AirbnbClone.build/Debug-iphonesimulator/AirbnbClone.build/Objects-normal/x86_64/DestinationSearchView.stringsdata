@@ -9,6 +9,10 @@
       {
         "comment": "",
         "key": "Search Destinations"
+      },
+      {
+        "comment": "",
+        "key": "show expanded view"
       }
     ]
   },

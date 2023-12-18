@@ -1,12 +1,5 @@
 {
   "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Profile/ProfileOptionRowView.swift",
-  "tables": {
-    "Localizable": [
-      {
-        "comment": "",
-        "key": "Hello, World!"
-      }
-    ]
-  },
+  "tables": {},
   "version": 1
 }

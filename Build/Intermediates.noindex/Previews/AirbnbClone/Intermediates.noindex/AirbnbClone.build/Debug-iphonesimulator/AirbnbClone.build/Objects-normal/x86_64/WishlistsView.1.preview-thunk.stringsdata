@@ -1,0 +1,24 @@
+{
+  "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/WishlistsView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Wishlists"
+      },
+      {
+        "comment": "",
+        "key": "Log in to view your wishlists "
+      },
+      {
+        "comment": "",
+        "key": "You can create, view or edit whislists once you've logged in"
+      },
+      {
+        "comment": "",
+        "key": "Log in"
+      }
+    ]
+  },
+  "version": 1
+}

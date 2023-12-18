@@ -23,12 +23,12 @@ extension ExploreView {
                             }
                             
                         }
-                    LazyVStack(spacing : __designTimeInteger("#9912.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[0].value", fallback: 32)){
-                        ForEach(__designTimeInteger("#9912.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[0].value.[0]", fallback: 1) ... __designTimeInteger("#9912.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[0].value.[1]", fallback: 10), id: \.self){listing in
+                    LazyVStack(spacing : __designTimeInteger("#9289.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[0].value", fallback: 32)){
+                        ForEach(__designTimeInteger("#9289.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[0].value.[0]", fallback: 1) ... __designTimeInteger("#9289.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[0].value.[1]", fallback: 10), id: \.self){listing in
                             NavigationLink(value : listing){
                                 ListingItemView()
-                                    .frame(height: __designTimeInteger("#9912.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[0].arg[0].value", fallback: 400))
-                                    .clipShape(RoundedRectangle(cornerRadius: __designTimeInteger("#9912.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[1].arg[0].value.arg[0].value", fallback: 10)))
+                                    .frame(height: __designTimeInteger("#9289.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[0].arg[0].value", fallback: 400))
+                                    .clipShape(RoundedRectangle(cornerRadius: __designTimeInteger("#9289.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[1].arg[0].value.arg[0].value", fallback: 10)))
                             }
                         }
                     }

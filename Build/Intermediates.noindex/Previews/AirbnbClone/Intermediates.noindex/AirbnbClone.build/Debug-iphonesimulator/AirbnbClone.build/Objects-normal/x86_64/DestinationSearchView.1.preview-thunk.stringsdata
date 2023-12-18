@@ -4,6 +4,10 @@
     "Localizable": [
       {
         "comment": "",
+        "key": "Clear"
+      },
+      {
+        "comment": "",
         "key": "Where to ?"
       },
       {
@@ -12,7 +16,23 @@
       },
       {
         "comment": "",
-        "key": "show expanded view"
+        "key": "When is your trip ? "
+      },
+      {
+        "comment": "",
+        "key": "From"
+      },
+      {
+        "comment": "",
+        "key": "To"
+      },
+      {
+        "comment": "",
+        "key": "Who's coming ? "
+      },
+      {
+        "comment": "",
+        "key": " %lld Adults"
       }
     ]
   },

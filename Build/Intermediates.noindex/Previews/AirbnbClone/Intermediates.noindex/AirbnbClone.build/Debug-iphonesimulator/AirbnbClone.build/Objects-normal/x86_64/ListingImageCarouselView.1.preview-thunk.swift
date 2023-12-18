@@ -19,8 +19,8 @@ extension ListingImageCarouselView {
                         .scaledToFill()
                 }
             }
-            .frame(height: __designTimeInteger("#28060.[1].[1].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value", fallback: 320))
-            .clipShape(RoundedRectangle(cornerRadius: __designTimeInteger("#28060.[1].[1].property.[0].[0].arg[0].value.[0].modifier[1].arg[0].value.arg[0].value", fallback: 10)))
+            .frame(height: __designTimeInteger("#5341.[1].[1].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value", fallback: 320))
+            .clipShape(RoundedRectangle(cornerRadius: __designTimeInteger("#5341.[1].[1].property.[0].[0].arg[0].value.[0].modifier[1].arg[0].value.arg[0].value", fallback: 10)))
             .tabViewStyle(.page)
         }
     

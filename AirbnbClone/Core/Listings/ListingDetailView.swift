@@ -161,6 +161,8 @@ struct ListingDetailView: View {
             }
             .padding()
         }
+        //toolbar is here to mask the tabbar
+        .toolbar(.hidden, for : .tabBar)
         .ignoresSafeArea()
         .padding(.bottom, 64)
         .overlay(alignment : .bottom){

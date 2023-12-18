@@ -11,13 +11,7 @@ import SwiftUI
 extension ContentView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
         #sourceLocation(file: "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/ContentView.swift", line: 12)
-        VStack {
-            Image(systemName: __designTimeString("#355.[1].[0].property.[0].[0].arg[0].value.[0].arg[0].value", fallback: "globe"))
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text(__designTimeString("#355.[1].[0].property.[0].[0].arg[0].value.[1].arg[0].value", fallback: "Hello, world!"))
-        }
-        .padding()
+        MainTabView()
     
 #sourceLocation()
     }

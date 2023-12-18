@@ -1,12 +1,5 @@
 {
   "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/ContentView.swift",
-  "tables": {
-    "Localizable": [
-      {
-        "comment": "",
-        "key": "Hello, world!"
-      }
-    ]
-  },
+  "tables": {},
   "version": 1
 }

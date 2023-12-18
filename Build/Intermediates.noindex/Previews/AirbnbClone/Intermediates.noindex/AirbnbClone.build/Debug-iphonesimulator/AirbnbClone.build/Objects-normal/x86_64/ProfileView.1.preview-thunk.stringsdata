@@ -1,0 +1,28 @@
+{
+  "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/ProfileView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Profile"
+      },
+      {
+        "comment": "",
+        "key": "Log in to start planning your next trip"
+      },
+      {
+        "comment": "",
+        "key": "Log in"
+      },
+      {
+        "comment": "",
+        "key": "Don't have an account?"
+      },
+      {
+        "comment": "",
+        "key": "Sign up"
+      }
+    ]
+  },
+  "version": 1
+}

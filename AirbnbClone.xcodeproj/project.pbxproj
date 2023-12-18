@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98034CC32B3068990011E300 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98034CC22B3068990011E300 /* ProfileView.swift */; };
+		98034CC52B306D310011E300 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98034CC42B306D310011E300 /* ProfileOptionRowView.swift */; };
 		98CF1EB72B29E9880049514F /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CF1EB62B29E9880049514F /* DestinationSearchView.swift */; };
 		98D0AD042B28815E005F2F46 /* AirbnbCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0AD032B28815E005F2F46 /* AirbnbCloneApp.swift */; };
 		98D0AD062B28815E005F2F46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0AD052B28815E005F2F46 /* ContentView.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98034CC22B3068990011E300 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		98034CC42B306D310011E300 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
 		98CF1EB62B29E9880049514F /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		98D0AD002B28815E005F2F46 /* AirbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D0AD032B28815E005F2F46 /* AirbnbCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbCloneApp.swift; sourceTree = "<group>"; };
@@ -156,6 +160,8 @@
 		98D0AD192B28831C005F2F46 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				98034CC22B3068990011E300 /* ProfileView.swift */,
+				98034CC42B306D310011E300 /* ProfileOptionRowView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				98D0AD282B289F57005F2F46 /* ListingImageCarouselView.swift in Sources */,
+				98034CC32B3068990011E300 /* ProfileView.swift in Sources */,
+				98034CC52B306D310011E300 /* ProfileOptionRowView.swift in Sources */,
 				98CF1EB72B29E9880049514F /* DestinationSearchView.swift in Sources */,
 				98D0AD062B28815E005F2F46 /* ContentView.swift in Sources */,
 				98D0AD202B288680005F2F46 /* ListingItemView.swift in Sources */,

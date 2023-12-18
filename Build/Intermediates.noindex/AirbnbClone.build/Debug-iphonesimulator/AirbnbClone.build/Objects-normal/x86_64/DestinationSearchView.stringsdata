@@ -1,0 +1,40 @@
+{
+  "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Explore/DestinationSearchView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Clear"
+      },
+      {
+        "comment": "",
+        "key": "Where to ?"
+      },
+      {
+        "comment": "",
+        "key": "Search Destinations"
+      },
+      {
+        "comment": "",
+        "key": "When is your trip ? "
+      },
+      {
+        "comment": "",
+        "key": "From"
+      },
+      {
+        "comment": "",
+        "key": "To"
+      },
+      {
+        "comment": "",
+        "key": "Who's coming ? "
+      },
+      {
+        "comment": "",
+        "key": " %lld Adults"
+      }
+    ]
+  },
+  "version": 1
+}

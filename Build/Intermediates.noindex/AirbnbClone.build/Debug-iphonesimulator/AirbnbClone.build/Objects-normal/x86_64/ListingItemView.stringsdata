@@ -1,0 +1,32 @@
+{
+  "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Listings/ListingItemView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Miami, Florida"
+      },
+      {
+        "comment": "",
+        "key": "12 mi away"
+      },
+      {
+        "comment": "",
+        "key": "Nov 3 - 10"
+      },
+      {
+        "comment": "",
+        "key": "$567"
+      },
+      {
+        "comment": "",
+        "key": "night"
+      },
+      {
+        "comment": "",
+        "key": "4.86"
+      }
+    ]
+  },
+  "version": 1
+}

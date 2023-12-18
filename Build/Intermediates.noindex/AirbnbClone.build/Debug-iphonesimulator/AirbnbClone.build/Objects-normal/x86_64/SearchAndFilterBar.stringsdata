@@ -1,0 +1,16 @@
+{
+  "source": "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Explore/SearchAndFilterBar.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Where to ?"
+      },
+      {
+        "comment": "",
+        "key": "Anywhere- Any Week- Add guests"
+      }
+    ]
+  },
+  "version": 1
+}

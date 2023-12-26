@@ -65,7 +65,17 @@
     "swift-dependencies" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/SearchAndFilterBar.swiftdeps",
     "swiftmodule" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/SearchAndFilterBar~partial.swiftmodule"
   },
-  "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Listings/ListingDetailView.swift" : {
+  "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Listings/Model/Listing.swift" : {
+    "const-values" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/Listing.swiftconstvalues",
+    "dependencies" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/Listing.d",
+    "diagnostics" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/Listing.dia",
+    "index-unit-output-path" : "/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/Listing.o",
+    "llvm-bc" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/Listing.bc",
+    "object" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/Listing.o",
+    "swift-dependencies" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/Listing.swiftdeps",
+    "swiftmodule" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/Listing~partial.swiftmodule"
+  },
+  "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Listings/View/ListingDetailView.swift" : {
     "const-values" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/ListingDetailView.swiftconstvalues",
     "dependencies" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/ListingDetailView.d",
     "diagnostics" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/ListingDetailView.dia",
@@ -75,7 +85,7 @@
     "swift-dependencies" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/ListingDetailView.swiftdeps",
     "swiftmodule" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/ListingDetailView~partial.swiftmodule"
   },
-  "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Listings/ListingItemView.swift" : {
+  "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Listings/View/ListingItemView.swift" : {
     "const-values" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/ListingItemView.swiftconstvalues",
     "dependencies" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/ListingItemView.d",
     "diagnostics" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/ListingItemView.dia",
@@ -124,6 +134,16 @@
     "object" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/WishlistsView.o",
     "swift-dependencies" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/WishlistsView.swiftdeps",
     "swiftmodule" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/WishlistsView~partial.swiftmodule"
+  },
+  "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Extensions/DeveloperPreview.swift" : {
+    "const-values" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/DeveloperPreview.swiftconstvalues",
+    "dependencies" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/DeveloperPreview.d",
+    "diagnostics" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/DeveloperPreview.dia",
+    "index-unit-output-path" : "/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/DeveloperPreview.o",
+    "llvm-bc" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/DeveloperPreview.bc",
+    "object" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/DeveloperPreview.o",
+    "swift-dependencies" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/DeveloperPreview.swiftdeps",
+    "swiftmodule" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/DeveloperPreview~partial.swiftmodule"
   },
   "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/DerivedSources/GeneratedAssetSymbols.swift" : {
     "const-values" : "/Users/nisanurkorkmaz/Desktop/AirbnbClone/Build/Intermediates.noindex/Previews/AirbnbClone/Intermediates.noindex/AirbnbClone.build/Debug-iphonesimulator/AirbnbClone.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",

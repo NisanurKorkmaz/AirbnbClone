@@ -10,7 +10,7 @@ import Foundation
 struct Listing : Identifiable, Codable{
     let id : String
     let ownerUid : String
-    let ownername : String
+    let ownerName : String
     let ownerImageUrl : String
     let numberOfBedrooms : Int
     let numberOfBathrooms : Int
@@ -19,6 +19,7 @@ struct Listing : Identifiable, Codable{
     var pricePerNight : Int
     let latitude : Double
     let longitude : Double
+    var imageURLs : [String]
     let adress : String
     let city : String
     let state : String
@@ -26,6 +27,7 @@ struct Listing : Identifiable, Codable{
     var rating : Double
     var features : [ListingFeatures]
     var amenities : [ListingAmenities]
+//    var type : ListingType
 }
 
 enum ListingFeatures : Int, Codable, Identifiable, Hashable {

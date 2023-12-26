@@ -11,6 +11,7 @@
 		98034CC52B306D310011E300 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98034CC42B306D310011E300 /* ProfileOptionRowView.swift */; };
 		98034CC72B306F220011E300 /* WishlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98034CC62B306F220011E300 /* WishlistsView.swift */; };
 		98034CC92B30711B0011E300 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98034CC82B30711B0011E300 /* MainTabView.swift */; };
+		98034CCD2B3AC13B0011E300 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98034CCC2B3AC13B0011E300 /* Listing.swift */; };
 		98CF1EB72B29E9880049514F /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CF1EB62B29E9880049514F /* DestinationSearchView.swift */; };
 		98D0AD042B28815E005F2F46 /* AirbnbCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0AD032B28815E005F2F46 /* AirbnbCloneApp.swift */; };
 		98D0AD062B28815E005F2F46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0AD052B28815E005F2F46 /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 		98034CC42B306D310011E300 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
 		98034CC62B306F220011E300 /* WishlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistsView.swift; sourceTree = "<group>"; };
 		98034CC82B30711B0011E300 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		98034CCC2B3AC13B0011E300 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		98CF1EB62B29E9880049514F /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		98D0AD002B28815E005F2F46 /* AirbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D0AD032B28815E005F2F46 /* AirbnbCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbCloneApp.swift; sourceTree = "<group>"; };
@@ -52,6 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98034CCA2B3AC0FC0011E300 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98034CCC2B3AC13B0011E300 /* Listing.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98034CCB2B3AC10A0011E300 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98D0AD1F2B288680005F2F46 /* ListingItemView.swift */,
+				98D0AD242B289E53005F2F46 /* ListingDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		98D0ACF72B28815E005F2F46 = {
 			isa = PBXGroup;
 			children = (
@@ -148,8 +167,8 @@
 		98D0AD172B288302005F2F46 /* Listings */ = {
 			isa = PBXGroup;
 			children = (
-				98D0AD1F2B288680005F2F46 /* ListingItemView.swift */,
-				98D0AD242B289E53005F2F46 /* ListingDetailView.swift */,
+				98034CCB2B3AC10A0011E300 /* View */,
+				98034CCA2B3AC0FC0011E300 /* Model */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -278,6 +297,7 @@
 				98D0AD062B28815E005F2F46 /* ContentView.swift in Sources */,
 				98D0AD202B288680005F2F46 /* ListingItemView.swift in Sources */,
 				98034CC72B306F220011E300 /* WishlistsView.swift in Sources */,
+				98034CCD2B3AC13B0011E300 /* Listing.swift in Sources */,
 				98D0AD1E2B28848A005F2F46 /* ExploreView.swift in Sources */,
 				98D0AD232B28933F005F2F46 /* SearchAndFilterBar.swift in Sources */,
 				98D0AD252B289E53005F2F46 /* ListingDetailView.swift in Sources */,

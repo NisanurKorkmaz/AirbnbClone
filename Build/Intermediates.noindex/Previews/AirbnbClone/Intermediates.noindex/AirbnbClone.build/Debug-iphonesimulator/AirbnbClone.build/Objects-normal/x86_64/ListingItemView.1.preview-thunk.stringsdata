@@ -4,7 +4,7 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Miami, Florida"
+        "key": "%@, %@"
       },
       {
         "comment": "",
@@ -16,7 +16,7 @@
       },
       {
         "comment": "",
-        "key": "$567"
+        "key": "$%lld"
       },
       {
         "comment": "",
@@ -24,7 +24,7 @@
       },
       {
         "comment": "",
-        "key": "4.86"
+        "key": "%lf"
       }
     ]
   },

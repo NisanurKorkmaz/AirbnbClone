@@ -43,6 +43,12 @@ extension DeveloperToolsSupport.ImageResource {
     /// The "image4" asset catalog image resource.
     static let image4 = DeveloperToolsSupport.ImageResource(name: "image4", bundle: resourceBundle)
 
+    /// The "image5" asset catalog image resource.
+    static let image5 = DeveloperToolsSupport.ImageResource(name: "image5", bundle: resourceBundle)
+
+    /// The "image6" asset catalog image resource.
+    static let image6 = DeveloperToolsSupport.ImageResource(name: "image6", bundle: resourceBundle)
+
     /// The "male-pp" asset catalog image resource.
     static let malePp = DeveloperToolsSupport.ImageResource(name: "male-pp", bundle: resourceBundle)
 
@@ -124,6 +130,24 @@ extension AppKit.NSImage {
 #endif
     }
 
+    /// The "image5" asset catalog image.
+    static var image5: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .image5)
+#else
+        .init()
+#endif
+    }
+
+    /// The "image6" asset catalog image.
+    static var image6: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .image6)
+#else
+        .init()
+#endif
+    }
+
     /// The "male-pp" asset catalog image.
     static var malePp: AppKit.NSImage {
 #if !targetEnvironment(macCatalyst)
@@ -181,6 +205,24 @@ extension UIKit.UIImage {
     static var image4: UIKit.UIImage {
 #if !os(watchOS)
         .init(resource: .image4)
+#else
+        .init()
+#endif
+    }
+
+    /// The "image5" asset catalog image.
+    static var image5: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .image5)
+#else
+        .init()
+#endif
+    }
+
+    /// The "image6" asset catalog image.
+    static var image6: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .image6)
 #else
         .init()
 #endif

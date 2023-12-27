@@ -18,6 +18,12 @@ static NSString * const ACImageNameImage3 AC_SWIFT_PRIVATE = @"image3";
 /// The "image4" asset catalog image resource.
 static NSString * const ACImageNameImage4 AC_SWIFT_PRIVATE = @"image4";
 
+/// The "image5" asset catalog image resource.
+static NSString * const ACImageNameImage5 AC_SWIFT_PRIVATE = @"image5";
+
+/// The "image6" asset catalog image resource.
+static NSString * const ACImageNameImage6 AC_SWIFT_PRIVATE = @"image6";
+
 /// The "male-pp" asset catalog image resource.
 static NSString * const ACImageNameMalePp AC_SWIFT_PRIVATE = @"male-pp";
 

@@ -50,6 +50,26 @@
 			<key>catalogPath</key>
 			<string>/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Assets.xcassets</string>
 			<key>objcSymbol</key>
+			<string>ACImageNameImage5</string>
+			<key>relativePath</key>
+			<string>./image5.imageset</string>
+			<key>swiftSymbol</key>
+			<string>image5</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameImage6</string>
+			<key>relativePath</key>
+			<string>./image6.imageset</string>
+			<key>swiftSymbol</key>
+			<string>image6</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Assets.xcassets</string>
+			<key>objcSymbol</key>
 			<string>ACImageNameMalePp</string>
 			<key>relativePath</key>
 			<string>./male-pp.imageset</string>

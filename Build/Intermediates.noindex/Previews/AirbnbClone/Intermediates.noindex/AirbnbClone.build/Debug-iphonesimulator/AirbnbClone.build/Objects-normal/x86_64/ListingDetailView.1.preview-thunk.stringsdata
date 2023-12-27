@@ -4,15 +4,11 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Miami Villa"
+        "key": "%@, %@"
       },
       {
         "comment": "",
-        "key": "Miami, Florida"
-      },
-      {
-        "comment": "",
-        "key": "4.86 - "
+        "key": "%lf - "
       },
       {
         "comment": "",
@@ -20,19 +16,11 @@
       },
       {
         "comment": "",
-        "key": "Entire villa hosted by John Smith"
+        "key": "Entire villa hosted by %@"
       },
       {
         "comment": "",
-        "key": "4 Guest - 4 bedrooms - 4 beds - 3 baths"
-      },
-      {
-        "comment": "",
-        "key": "SuperHost"
-      },
-      {
-        "comment": "",
-        "key": "Superhosts are experienced, highly rated hosts who are commited to providing great stars for guests. "
+        "key": "%lld Guest - %lld Bedrooms - %lld Beds -  %lld Bathrooms"
       },
       {
         "comment": "",
@@ -48,15 +36,11 @@
       },
       {
         "comment": "",
-        "key": "Wifi"
-      },
-      {
-        "comment": "",
         "key": "Where you will be"
       },
       {
         "comment": "",
-        "key": "$5000"
+        "key": "$ %lld"
       },
       {
         "comment": "",

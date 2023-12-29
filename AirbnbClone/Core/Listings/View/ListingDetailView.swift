@@ -7,19 +7,63 @@
 
 import SwiftUI
 import MapKit
-
+//enum City {
+//    case losAngeles
+//    case miami
+//    case sanFransisco
+//    case seattle
+//    case unknown
+//}
+//class CityHandler {
+//    func coordinates (for city : City ) -> CLLocationCoordinate2D {
+//        switch city {
+//        case .losAngeles:
+//            return CLLocationCoordinate2D(latitude: 34.0549, longitude: -118.2426)
+//        case .miami:
+//            return CLLocationCoordinate2D(latitude: 25.7602, longitude: -80.1959)
+//        case .seattle:
+//            return CLLocationCoordinate2D(latitude: 47.6204, longitude: -122.3493)
+//        case .sanFransisco:
+//            return CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194)
+//        default:
+//            return CLLocationCoordinate2D(latitude: 0.0, longitude: 0.0)
+//        }}
+//
+//}
 struct ListingDetailView: View {
     @Environment(\.dismiss) var dismiss
     let listing : Listing
     @State private var cameraPosition: MapCameraPosition
-    
+//    let cityHandler = CityHandler()
+//    
+//    enum City {
+//        case losAngeles
+//        case miami
+//        case sanFransisco
+//        case seattle
+//        case unknown
+//    }
+//    
     init(listing : Listing){
         self.listing = listing
-//        if listing.city == "Los Angeles" {
-//            c = .losAngeles
+        
+//        var cityEnum: City
+//        switch listing.city {
+//        case "Los Angeles":
+//            cityEnum = .losAngeles
+//        case "Miami":
+//            cityEnum = .miami
+//        case "Seattle":
+//            cityEnum = .seattle
+//        case "San Fransisco":
+//            cityEnum = .sanFransisco
+//        default:
+//            <#code#>
 //        }
+        
         let region = MKCoordinateRegion(
             center: listing.city == "Los Angeles" ? .losAngeles : .miami,
+//            center: cityHandler.coordinates(for: cityEnum),
             span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
         
         self._cameraPosition = State(initialValue: .region(region))
@@ -216,6 +260,20 @@ struct ListingDetailView: View {
         
     }
 }
+//let cityEnum : City
+//func coordinates (for city : City ) -> CLLocationCoordinate2D {
+//    switch city {
+//    case .losAngeles:
+//        return CLLocationCoordinate2D(latitude: 34.0549, longitude: -118.2426)
+//    case .miami:
+//        return CLLocationCoordinate2D(latitude: 25.7602, longitude: -80.1959)
+//    case .seattle:
+//        return CLLocationCoordinate2D(latitude: 47.6204, longitude: -122.3493)
+//    case .sanFransisco:
+//        return CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194)
+//    default:
+//        return CLLocationCoordinate2D(latitude: 0.0, longitude: 0.0)
+//    }}
 
 #Preview {
     ListingDetailView(listing: DeveloperPreview.shared.listings[1])

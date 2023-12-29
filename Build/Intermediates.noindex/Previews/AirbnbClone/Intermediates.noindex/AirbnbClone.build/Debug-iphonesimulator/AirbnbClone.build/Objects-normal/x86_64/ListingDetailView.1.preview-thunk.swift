@@ -11,7 +11,7 @@ import MapKit
 
 extension ListingDetailView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Listings/View/ListingDetailView.swift", line: 28)
+        #sourceLocation(file: "/Users/nisanurkorkmaz/Desktop/AirbnbClone/AirbnbClone/Core/Listings/View/ListingDetailView.swift", line: 72)
         ScrollView{
             ZStack(alignment : .topLeading){
                 ListingImageCarouselView(listing: listing)

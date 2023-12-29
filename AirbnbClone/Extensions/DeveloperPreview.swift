@@ -71,7 +71,7 @@ class DeveloperPreview {
             adress : "124 Main St ",
             city : "Los Angeles",
             state : "California",
-            title : "Bieautiful Los Angeles home in Malibu",
+            title : "Beautiful Los Angeles home",
             rating : 4.86,
             features : [.selfCheckIn, .superHost],
             amenities : [.wifi, .alarmSystem, .pool]

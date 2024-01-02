@@ -34,6 +34,7 @@ struct ListingDetailView: View {
     @Environment(\.dismiss) var dismiss
     let listing : Listing
     @State private var cameraPosition: MapCameraPosition
+    
 //    let cityHandler = CityHandler()
 //    
 //    enum City {
@@ -87,7 +88,7 @@ struct ListingDetailView: View {
                         .padding(32)
                 }
             }
-            
+            let formattedRating = String(format: "%.2f", listing.rating)
             VStack(alignment: .leading, spacing: 8){
                 Text(listing.title)
                     .font(.title)
@@ -97,7 +98,8 @@ struct ListingDetailView: View {
                     HStack(spacing : 2){
                         Image(systemName: "star.fill")
                             .foregroundStyle(.black)
-                        Text("\(listing.rating) - ")
+//                        Text("\(listing.rating) - ")
+                        Text("\(formattedRating) - ")
                             .foregroundStyle(.black)
                         
                         Text("28 reviews")

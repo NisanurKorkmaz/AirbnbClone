@@ -24,12 +24,12 @@ extension ExploreView {
                             }
                             
                         }
-                    LazyVStack(spacing : __designTimeInteger("#34791.[1].[2].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[0].value", fallback: 32)){
+                    LazyVStack(spacing : __designTimeInteger("#4875.[1].[2].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[0].value", fallback: 32)){
                         ForEach(viewModel.listings){listing in
                             NavigationLink(value : listing){
                                 ListingItemView(listing: listing)
-                                    .frame(height: __designTimeInteger("#34791.[1].[2].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[1].value.[0].arg[1].value.[0].modifier[0].arg[0].value", fallback: 400))
-                                    .clipShape(RoundedRectangle(cornerRadius: __designTimeInteger("#34791.[1].[2].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[1].value.[0].arg[1].value.[0].modifier[1].arg[0].value.arg[0].value", fallback: 10)))
+                                    .frame(height: __designTimeInteger("#4875.[1].[2].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[1].value.[0].arg[1].value.[0].modifier[0].arg[0].value", fallback: 400))
+                                    .clipShape(RoundedRectangle(cornerRadius: __designTimeInteger("#4875.[1].[2].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value.[1].arg[1].value.[0].arg[1].value.[0].arg[1].value.[0].modifier[1].arg[0].value.arg[0].value", fallback: 10)))
                             }
                         }
                     }

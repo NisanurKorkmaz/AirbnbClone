@@ -39,10 +39,11 @@ struct ListingItemView: View {
                 }
                 Spacer()
                 //rating
+                let formattedRating = String(format: "%.2f", listing.rating)
                 HStack(spacing : 2){
                     Image(systemName: "star.fill")
                         .foregroundStyle(.black)
-                    Text("\(listing.rating)")
+                    Text("\(formattedRating)")
                         .foregroundStyle(.black)
                 }
             }

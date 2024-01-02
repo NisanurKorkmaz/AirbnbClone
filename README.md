@@ -8,3 +8,6 @@ Welcome to our Airbnb clone application, where the spirit of travel and discover
 - [Maps API](https://developer.apple.com/documentation/mapkit/map)
   
 ## :camera_flash: Screenshots
+| Home Page| Home Page|
+| --- | --- |
+|<img width="317" alt="Capture d’écran 2024-01-02 à 15 57 50" src="https://github.com/NisanurKorkmaz/AirbnbClone/assets/80275552/f679fbdf-f40e-4148-8c72-bd1aa7ad3ef7">|
